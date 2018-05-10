@@ -1,0 +1,29 @@
+{
+  "name": "com.nuvelvision.tradealert",
+  "displayName": "Trade Alert",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "bulma": "^0.6.2",
+    "cordova-android": "^7.0.0",
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "gradle": "^1.0.9"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
